@@ -14,6 +14,10 @@
 - [x] `[Code]` 2026-04-19 — Deployed to Synology NAS (port 8770, SSE); container running — blocked on `[Human]` completing OAuth2 flow
 - [x] `[Code]` 2026-04-19 — Add `claude-whoop` to `config/mcp.json` in brian-telegram (port 8770, SSE); added `src/serve.js` + `src/server.js` factory
 
+### Build & Infrastructure
+- [ ] `[Code]` Add GHCR build-push workflow — migrate container from `node:20-alpine` to a versioned GHCR image (`ghcr.io/aldarondo/...`) with GitHub Actions auto-deploy
+- [ ] `[Code]` Add weekly scheduled rebuild — GitHub Actions `schedule: cron` to repull and push a fresh image every week, picking up base-image security patches
+
 ### Enhancements
 - [x] `[Code]` 2026-04-19 — Store latest recovery in brian-mem on each `get_recovery` call — fire-and-forget via `src/memory.js`; requires `BRIAN_MEM_URL` env var (silently skips if absent)
 - [x] `[Code]` 2026-04-19 — Weekly summary tool — average recovery score, sleep performance, top workout by strain for the past 7 days
