@@ -3,6 +3,7 @@
  * Listens on PORT (default 8770) for SSE connections from brian-telegram.
  */
 
+import './logger.js';
 import express from 'express';
 import { SSEServerTransport } from '@modelcontextprotocol/sdk/server/sse.js';
 import { createServer } from './server.js';

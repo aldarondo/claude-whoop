@@ -27,6 +27,10 @@
 - [x] 2026-04-19 — Scaffolded: MCP server (get_recovery, get_sleep, get_workouts, get_strain, get_body_measurement), API client, auth module, unit tests
 
 ## 🚫 Blocked
+<<<<<<< Updated upstream
 
 - ❌ [docker-monitor:no-ghcr-image] Container `claude-whoop` uses `node:20-alpine` — migrate to `ghcr.io/aldarondo/...` with a GitHub Actions build-push workflow — 2026-04-23 08:00 UTC
+=======
+- `[Human]` Create Whoop developer app at https://developer-dashboard.whoop.com/ → run `node src/authorize.js`
+>>>>>>> Stashed changes
 <!-- log blockers here -->
