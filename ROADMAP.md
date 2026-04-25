@@ -27,7 +27,6 @@
 - [x] 2026-04-19 — Scaffolded: MCP server (get_recovery, get_sleep, get_workouts, get_strain, get_body_measurement), API client, auth module, unit tests
 
 ## 🚫 Blocked
-- ❌ [docker-monitor:deploy-failed] GitHub Actions deploy failed (run #24920104259) — https://github.com/aldarondo/claude-whoop/actions/runs/24920104259 — 2026-04-25 08:00 UTC
 
 - ❌ [docker-monitor:no-ghcr-image] Container `claude-whoop` uses `node:20-alpine` — migrate to `ghcr.io/aldarondo/...` with a GitHub Actions build-push workflow — 2026-04-23 08:00 UTC
 <!-- log blockers here -->
