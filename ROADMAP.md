@@ -15,14 +15,15 @@
 - [x] `[Code]` 2026-04-19 — Add `claude-whoop` to `config/mcp.json` in brian-telegram (port 8770, SSE); added `src/serve.js` + `src/server.js` factory
 
 ### Build & Infrastructure
-- [ ] `[Code]` Add GHCR build-push workflow — migrate container from `node:20-alpine` to a versioned GHCR image (`ghcr.io/aldarondo/...`) with GitHub Actions auto-deploy
-- [ ] `[Code]` Add weekly scheduled rebuild — GitHub Actions `schedule: cron` to repull and push a fresh image every week, picking up base-image security patches
+- [x] `[Code]` 2026-04-23 — Add GHCR build-push workflow — migrate container from `node:20-alpine` to a versioned GHCR image (`ghcr.io/aldarondo/...`) with GitHub Actions auto-deploy
+- [x] `[Code]` 2026-04-23 — Add weekly scheduled rebuild — GitHub Actions `schedule: cron` to repull and push a fresh image every week, picking up base-image security patches
 
 ### Enhancements
 - [x] `[Code]` 2026-04-19 — Store latest recovery in brian-mem on each `get_recovery` call — fire-and-forget via `src/memory.js`; requires `BRIAN_MEM_URL` env var (silently skips if absent)
 - [x] `[Code]` 2026-04-19 — Weekly summary tool — average recovery score, sleep performance, top workout by strain for the past 7 days
 
 ## ✅ Completed
+- [x] 2026-04-23 — GHCR build-push workflow and weekly scheduled rebuild added to `.github/workflows/build.yml`; Dockerfile updated to `node:22-alpine`
 - [x] 2026-04-19 — Scaffolded: MCP server (get_recovery, get_sleep, get_workouts, get_strain, get_body_measurement), API client, auth module, unit tests
 
 ## 🚫 Blocked
