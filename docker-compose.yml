@@ -14,7 +14,7 @@ services:
       - BRIAN_MCP_CLIENT_ID=${BRIAN_MCP_CLIENT_ID:-}
       - BRIAN_MCP_CLIENT_SECRET=${BRIAN_MCP_CLIENT_SECRET:-}
     volumes:
-      - ./logs:/app/logs
+      - /volume1/docker/claude-whoop/logs:/app/logs
     network_mode: host
     logging:
       driver: "json-file"
