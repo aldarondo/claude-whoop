@@ -27,7 +27,7 @@
 - [x] 2026-04-19 — Scaffolded: MCP server (get_recovery, get_sleep, get_workouts, get_strain, get_body_measurement), API client, auth module, unit tests
 
 ## 🚫 Blocked
-- ❌ [docker-monitor:container-stopped] Container `claude-whoop` is not running on the NAS — check `docker logs claude-whoop` and restart — 2026-07-09 13:59 UTC
+
 <<<<<<< Updated upstream
 
 - ❌ [docker-monitor:no-ghcr-image] Container `claude-whoop` uses `node:20-alpine` — migrate to `ghcr.io/aldarondo/...` with a GitHub Actions build-push workflow — 2026-04-23 08:00 UTC
