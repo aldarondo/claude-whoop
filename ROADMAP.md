@@ -27,6 +27,7 @@
 - [x] 2026-04-19 — Scaffolded: MCP server (get_recovery, get_sleep, get_workouts, get_strain, get_body_measurement), API client, auth module, unit tests
 
 ## 🚫 Blocked
+- ❌ [docker-monitor:container-stopped] Container `claude-whoop` is not running on the NAS — check `docker logs claude-whoop` and restart — 2026-10-22 13:55 UTC
 
 <<<<<<< Updated upstream
 
